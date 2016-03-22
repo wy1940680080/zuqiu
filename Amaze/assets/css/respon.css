@@ -1,0 +1,983 @@
+/*响应下手机页面的样式*/
+@media only screen and (max-width: 640px){
+	.content{
+		width: 100%;
+	}
+	.head_1{
+		width: 100%;
+		background: #c33a28;
+		height: 65px;
+	}
+	.main{
+		width: 100%;
+		position: relative;
+	}
+	body{
+		position: relative;
+	}
+	.content{
+		position: absolute;
+		left: 0px;
+	}
+	/*手机左边的导航条*/
+	.logo_ul li{
+		list-style-type: none;
+		float: left;
+		height: 32px;
+		margin-right: 10px;
+		margin-left: 5px;
+		font-weight: 50;
+	}
+	.dh_ph img{
+			width: 20px;
+			height:13px;
+			margin-top: -5px;
+	}
+	.nav_1{
+		z-index: 999;
+		width: 290px;
+		height: 568px;
+		position:absolute;
+		top: -67px;
+		left:100%;
+		background: #c33a28;
+		position: relative;
+	}
+	.nav_1 li{
+		height: 40px;
+	}
+	.head_1{
+		z-index:200;
+		position: fixed;
+	}
+	.li_1{
+		height: 30px;
+	}
+	.navul_1 li a{
+		color: white;
+	}
+	.ipad_title1{
+		display:none;
+	}
+	.logo_ul {
+		float: right;
+		width:34.6%;
+		margin: 22px 5px 0px 0px;
+		color: white;
+	}
+	.logo_a img{
+		width: 52%;
+		margin-left: 10px;
+	}
+	.btor{border-bottom: 4px solid #c33a28;}
+	.navul_1{
+		width: 96%;
+		padding-left: 0px;
+		padding-top: 10px;
+	}
+	.navul_1 li{
+		line-height: 40px;
+		text-align: center;
+		float: none;
+		list-style: none;
+	}
+	#comp {
+		width: 100%;
+	}
+	.zhuanyetz{
+		background: #c33a28;
+		padding-bottom: 15px;
+	}
+	.zytrt{
+		width: 100%;
+	}
+	.zhuanyetz{
+		padding-top: 60px;
+	}
+	/*专家介绍控制条样式*/
+	.teactrl{
+		width: 0px;
+		margin-right: 0px;
+	}
+	.nav_1{
+		overflow: hidden;
+	}
+	.invelog{
+		margin-bottom: -28px;
+	}
+	.introtz_1{
+		padding: 15px;
+		height: 132px;
+	}
+	.introtz_1 span{
+		height: 26px;
+		width: 100%;
+		display: block;
+		margin: auto;
+		color: white;
+		font-size: 0.75em;
+	}
+	/*团队部分的Li样式*/
+	.team_ul1{
+		list-style: none;
+		margin-right: -7px; 
+	}
+	.introtz_1 span img{
+		margin-left: 40%;
+		width: 20px;
+		height: 20px;
+	}
+	.tz_logo{
+		display: block;
+		width: 46.87%;
+		letter-spacing: 5px;
+		margin-left: 15px;
+		color: white;
+		font-size: 1.375em; 
+		font-weight: 200;
+	}
+	.zytrt h5{
+		font-size: 8px;
+		color: white;
+		margin: 0px;
+		margin-left: 18px;
+	}
+	.zytrt h4{
+		display: none;
+	}
+	.introtz_1 p{
+		color: white;
+		font-size: 0.87em;
+		line-height: 24px;
+		height: 75px;
+		overflow: hidden;
+
+	}
+	#invest_p{
+		font-weight:150;
+	}
+	/*蒙版设置*/
+	.mobilebac_ab{
+		position: absolute;
+		display: none;
+		width: 100%;
+		height: 100%;
+		top: -5px;
+		left: 0px;
+		background: black;
+		opacity: 0.2;
+	}
+
+	.new_pad_bac{
+		z-index: 100;
+		position: absolute;
+		display: none;
+		width: 100%;
+		height: 100%;
+		top: -10px;
+		left: 0px;
+		background: black;
+		opacity: 0.2;
+	}
+	/*第一个品牌展示部分*/
+	.slide-cot{
+		list-style: none;
+		width: 100%;
+		float: left;
+	}
+	.slider_li li{
+		list-style: none;
+		margin-left: 2px;
+		float: left;
+		border:1px #e5e5e5 solid;
+		margin-bottom: 14px;
+		width: 29%;
+	}
+	 /*左右按钮隐藏*/
+	 .am-direction-nav{
+	 	display: none;
+	 }
+	.slider_li{
+		margin: 0px;
+		width: 100%;
+	}
+	.tz_slider{
+		width: 1100%;
+	}
+	.slider_li li div h3{
+		display: none;
+	}
+	#bolo_slider{
+		padding-top: 10px;
+		margin-left: 15px;
+		margin-right: 15px;
+		width: 100%;
+		margin-left: 0px;
+		box-shadow: none;
+	}
+	#bolo_slider div.am-viewport{
+		width: 100%;
+		box-shadow: none;
+		margin-left: 0px;
+		height: 290px;
+	}
+	.slider_li li div img{
+		width: 100%;
+		height: 56px;
+	}
+	.slider_li li div{
+		width: 100%;
+	}
+	/*团队详情点击介绍弹出模块*/
+	.display_window{
+		display: none;
+	}
+	/*团队模块CSS样式调节*/
+	.team{
+		padding-top: 70px;
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	.team_nav{
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	.team_nav h2{
+		font-size:1.55em; 
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+	.team_nav p{
+		font-size: 1em;
+		margin-top: 5px;
+		margin-bottom: 0.6em;
+	}
+	.team_nav span{
+		display: block;
+		color: #a9a9a9;
+		font-size: 0.75em;
+		margin-top: 5px;
+	}
+	.team_nav span img{
+		width: 22px;
+		height: 22px;
+		margin-left: 38%;
+	}
+	#team_pic{
+		margin-top:20px; 
+		width: 100%;
+		overflow: hidden;
+	}
+	.team_box{
+		width: 300%;
+	}
+	/*均分父级宽度*/
+	.average1,.average3{
+		width: 33.3%;
+		height: 344px;
+	}
+	.average2{
+		width: 33.3%;
+		height: 334px;
+	}
+	/**/
+	.team_ul1{
+		padding-left: 0px;
+		overflow: hidden;
+	}
+	.team_ul1 li div h4{
+
+	}
+   .teamunit{
+   	float: left;
+   }
+   .team_box{
+   	overflow: hidden;
+   }
+	.team_ul1 li div h4{
+		margin-right: 0px;
+		text-align: center;
+		margin-top: 15px;
+	}
+	.team_ul1 li{
+		width: 31%;
+		float: left;
+		margin-right: 6px;
+	}
+	.team_ul1 li div span img{
+		background: #e4e3df;
+		transition: all 1s;
+	};
+	.team_picshow{
+
+	}
+	.teactrl{
+		width: 100%;
+		overflow: hidden;
+		padding-left: 7.5em;
+	}
+	.teactrl li{
+		list-style: none;
+		width: 10px;
+		height: 10px;
+		float: left;
+		margin-left: 5px;
+		border: 1px #bcbcbc solid;
+		border-radius: 5px;
+	}
+	#team_pic{
+	}
+	/*关于部分的样式设置*/
+	/*投资部分背景设置*/
+	.ab_con1{
+		cursor: pointer;
+	}
+	.ab_con1 dl dt {
+		
+		}
+	.ab_con1 dl dt{
+		width: 52%;
+		height: 82px;
+		position: relative;
+		margin-left: 25%;
+		margin-top: 15px;
+	}
+	/*手机端关于部分背景设置*/
+	.ab_bak1 dl dt{
+			background:url(../i/images/areas.png);
+			background-size: cover;
+	}
+	.ab_bak2 dl dt{
+			background:url(../i/images/scale.png);
+			background-size: cover;
+	}
+	.ab_bak1 dl dt img{
+		position: absolute;
+		top: 55px;
+		left: 68%;
+	}
+	.ab_bak2 dl dt img{
+		position: absolute;
+		top: 55px;
+		left: 68%;
+	}
+	.ab_bak3 dl dt img{
+		position: absolute;
+		top: 0px;
+		left: 68%;
+	}
+	.ab_bak3 dl dt img{
+		position: absolute;
+		top: 10px;
+		left: 62%;
+	}
+	.ab_bak4 dl dt img{
+		position: absolute;
+		top: 0px;
+		left: 0%;
+	}
+	.ab_bak3 dl dt{
+			background: url(../i/images/stand.png);
+			background-size: cover;
+	}
+	.ab_bak4 dl dt{
+			background: url(../i/images/service.png);
+			background-size: cover;
+	}
+	.ab_con1 dl dt img{
+		width: 30%;
+		height: 30%;
+	}
+	.ab_con1 dl dd h3{
+		margin-top: 10px;
+		text-align: center;
+		font-weight: 500;
+	}
+	.ab_text{
+		display: none;
+	}
+	.ab_con1{
+		height: 150px;
+		float: left;
+		width: 50%;
+		padding-left: 
+	}
+	.value_p{
+		display: none;
+	}
+	.about_cont{
+		overflow: hidden;
+	}
+	.ab_bak1,.ab_bak2{
+		border-top: 1px #c3c3c3 solid;
+		border-bottom: 1px #c3c3c3 solid;
+	}
+	.ab_bak1{
+		border-right: 1px #c3c3c3 solid;
+	}
+	.ab_bak3,.ab_bak4{
+		border-bottom: 1px #c3c3c3 solid;
+	}
+	.ab_bak3{
+		border-right: 1px #c3c3c3 solid;
+	}
+	.team_nav{
+		margin-bottom: 20px;
+	}
+	.phone_span,.invest_more{
+		display: block;
+	}
+	/*手机端投资模块隐藏*/
+	.invest_1{
+		display: none;
+	}
+	.new_slider li{
+		list-style: none;
+	}
+	.new_slider ul{
+		padding: 0px;
+	}
+	.about{
+		position: relative;
+		padding-top: 70px;
+	}
+	.about_diswindow{
+		width:92%;
+		z-index: 4;
+		display:none;
+		height: 380px;
+		margin-left: 4%;
+		margin-right: 4%;
+		background: white;
+		position: absolute;
+		top:46px;
+		left: 0px;
+		border: 1px solid #8e8e8e;
+
+	}
+	.ab_dis_ul{
+		padding: 0px;
+		margin-left: 4%;
+		margin-top: 16px;
+		margin-right: 4%;
+	}
+	.ab_dis_ul li{
+		list-style: none;
+		font-size: 14px;
+		line-height: 23px;
+		margin-bottom: 5px;
+	}
+	.ab_dis_close{
+		overflow: hidden;
+	}
+	.ab_dis_close span{
+		float: right;
+		width: 37px;
+		height:25px;
+		border-left: 1px solid #e5e5e5;
+		background: url(../i/images/ab_dis_close.jpg);
+		background-size: cover;
+	}
+	.ab_dis_h{
+		border-bottom: 1px solid #cdccca;
+		margin: 0px;
+		margin-left: 4%;
+		margin-right: 4%;
+		font-weight: bold;
+		line-height: 30px;
+	}
+	/*新闻模块*/
+	.news{
+		padding-top: 65px;
+	}
+	.new_btn1,.new_btn2{
+		display: none;
+	}
+	.new_slider{
+		width: 320px;
+		height: 150px;
+		overflow: hidden;
+	}
+	.new_box{
+		overflow: hidden;
+	}
+	#new_phone{
+		width: 300%;
+		height: 150px;
+	}
+	.new_slider ul li{
+		list-style: none;
+		float: left;
+		position: relative;
+	}
+	.new_slider ul li img{
+		width: 320px;
+		height: 150px;
+	}
+	.new_slider_op{
+		position: absolute;
+		top: 85px;
+		padding-left: 4%;
+		color: white;
+		background: #000;
+		opacity: 0.5;
+	}
+	.new_control_ul2 li{
+		list-style: none;
+		float: left;
+	    width: 12px;
+	    margin-right: 5px;
+	    height: 12px;
+	    border-radius: 6px;
+	    border: 1px solid #bcbcbc;
+	}
+	.new_control_ul2{
+		padding-left: 0px;
+		margin-left: 40%;
+	}
+	.new_con_box{
+		overflow: hidden;
+		margin-top: 15px;
+	}
+	/*新闻描述快*/
+	.describe{
+
+	}
+	.describe b{
+		font-size: 0.56em;
+	}
+	.describe span{
+		display: block;
+		font-size: 0.35em;
+		color: #a0a2a1;
+		line-height: 12px;
+	}
+	.ond{
+		background: #cd472e;
+	}
+	#am_div_intro{
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	#am_div_intro li dl dt img{
+		width: 56px;
+		height: 52px;
+		margin-top: 5px;
+		margin-right: 15px;
+	}
+	#am_div_intro li dl dt{
+		float: left;
+		height: 100px;
+	}
+	#am_div_intrp li dl{
+		overflow: hidden;
+	}
+	.new_intro_dd h3 a{
+		color: black;
+	}
+	.new_intro_dd h3{
+		margin-bottom: 8px;
+	}
+	#am_div_intro li{
+		height: 100px;
+		border-bottom: 1px solid #e5e5e5;
+	}
+	.new_intro_dd span{
+		color: #9b999a;
+	}
+	/*新闻大图控制条*/
+	.new_2contr{
+		overflow: hidden;
+		display: none;
+	}
+	.new_2contr li{
+		list-style: none;
+		float: left;
+	}
+	.contact{
+		padding-left: 4%;
+		padding-right: 4%;
+		padding-top: 65px; 
+	}
+	#contact{
+		box-shadow: none;
+	}
+	.con_add{
+		padding-left: 0px;
+	}
+	.con_li1{
+		list-style-type: none;
+	}
+	.contact_ul_ad{
+		padding: 0px;
+	}
+	.acon_add_u_box{
+		padding: 0px;
+	}
+	.contact_ul_ad li{
+		list-style-type: none;
+		font-size: 0.67em;
+		color:#737373;
+	}
+	.con_add_ul_box li{
+		list-style:none;
+	}
+	#con_tac1{
+		padding: 0px;
+	}
+	.con_tact_En{
+		padding: 0px;
+	}
+	.contact_address{
+		width: 295px;
+		height: 165px;
+		border: 1px solid #cccccc;
+		background: url(../i/images/addres.jpg);
+		background-size: cover;
+	}
+	.con_li1 p{
+		margin-bottom: 10px;
+		font-size: 1em;
+		font-weight: bold;
+	}
+	.con_li1 span{
+		display: block;
+		font-size: 1em;
+		font-weight: bold;
+		margin-top: -10px;
+	}
+	.work_adv{
+		display: none;
+	}
+	/*g*/
+	#work_adv_ul{
+		padding-left: 4%;
+	}
+	.ph_wor_li1{
+		border-top: 1px solid #e5e5e5;
+		border-left: 1px solid #e5e5e5;
+		border-right:1px solid #e5e5e5;
+	}
+	.ph_wor_li2{
+		border-top: 1px solid #e5e5e5;
+		border-left: 1px solid #e5e5e5;
+		border-right:1px solid #e5e5e5;
+	}
+	.work_req{
+		display: none;
+	}
+	/*手机端下工作模块*/
+	.phone_work p{
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	.ph_wor_search{
+		position: relative;
+	}
+	.ph_wor_search span{
+		cursor: pointer;
+		position: absolute;
+		top: 7px;
+		left: 72%;
+		display: block;
+		width: 16px;
+		height: 16px;
+		background: url(../i/images/search.png);
+}
+	
+	.ph_wor_inpt{
+		border: 1px solid #ccc;
+		border-radius: 15px;
+		width:80%;
+		height: 30px;
+		font-size: 12px;
+		font-weight: bold;
+		padding-left: 15px;
+		margin-left: 15px;
+		margin-bottom: 20px;
+	}
+	.req{
+		display: none;
+	}
+	.ph_wor_head{
+		padding-left: 0px;
+		overflow: hidden;
+	}
+	.ph_wor_head li{
+		list-style-type: none;
+		float: left;
+		width: 50%;
+		height: 60px;
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 60px;
+		text-align: center;
+	}
+
+	.nav_1{
+		display: none;
+	}
+	.make_pro{
+	}
+	.share_idg{
+		
+	}
+	.submit_pro ul li{
+		list-style-type: none;
+	}
+	.work_idg{
+		padding-top: 20px;
+	}
+	.submit_pro ul{
+		padding: 0px;
+	}
+	/*手机分享部分*/
+	.share_img{
+		margin-left: 28%;
+	}
+	.share_under img{
+		margin-right: 3px;
+	}
+	.copy_rig{
+		margin-bottom: 0px;
+	}
+	.share_idg p{
+		font-size: 12px;
+		text-align: center;
+	}
+	.custom_phone_pro h3{
+		margin-left: 4%;
+		margin-right: 4%;
+		font-size:0.82em;
+	}
+	.desi_2{
+		margin-top: 0px;
+	}
+	.custom_phone_pro{
+		margin-top: 45px;
+	}
+	#mak_ul_pro li{
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	#mak_ul_pro{
+		padding: 0px;
+		padding-left: 4%;
+		padding-right: 4%;
+		font-size: 0.8em;
+	}
+	.custom_phone_pro{
+		display: block;
+	}
+	.custom_pro{
+		display:none;
+	}
+	/*.pro_box{
+		height: 350px;
+	}*/
+	.phone_pro li{
+		width: 50%;
+		list-style-type: none;
+		float: left;
+		text-align: center;
+		height: 60px;
+		line-height: 60px;
+	}
+	.phone_span var{
+		font-style: normal;
+	}
+	.phone_li1{
+		border-right: 1px solid #e5e5e5;
+		border-top: 1px solid #e5e5e5;
+	}
+	.phone_li2{
+		border-top: 1px solid #e5e5e5;
+	}
+	.btob{
+		border-bottom: 1px solid #e5e5e5;
+	}
+	.team_nav p{
+		height: 75px;
+		overflow: hidden;
+	}
+	.phone_pro{
+		padding-left: 0px;
+		overflow: hidden;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.phone_pro span{
+		font-size: 25px;
+	} 
+	.cue_pro{
+
+	}
+	.phone_pro_sub{
+		display: none;
+	}
+	/*投资隐藏模块*/
+	.invest_dis_window{
+		display: none;
+	}
+	/*提交部分的样式*/
+	.submit_phone li{
+		list-style: none;
+	}
+	.phone_pro_sub ul li{
+		list-style-type: none;
+		margin-bottom: 15px;
+	}
+	.phone_pro_sub input,.phone_pro_sub textarea{
+		border: 1px solid #cfcfcf;
+	}
+	.phone_pro_sub ul{
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	.phone_pro_sub textarea{
+		width: 91%;
+	}
+	.addfile{
+		width: 91%;
+		height: 23px;
+		display: block;
+		opacity: 0;
+		margin-top: -25px;
+	}
+	.com_pro_inp{
+		width: 100%;
+		height: 23px;
+	}
+	.pro_text{
+		height: 94px;
+	}
+	.phone_pro_sub h5{
+		margin-bottom: 8px;
+	}
+	#submit_pro_hand{
+		display: block;
+		color: black;
+		margin-top: 10px;
+		width: 130px;
+		padding-left: 25px;
+		background: url(../i/images/addfile.jpg) no-repeat;
+		background-position: 0 5px;
+	}
+	.tijiao_pro{
+		width: 100%;
+		height: 45px;
+		line-height: 45px;
+		color: black;
+	}
+	/*团队展示窗口*/
+	.dis_close,.dis_close2{
+		width: 18px;
+		height: 18px;
+		background: url(../i/images/bclose.jpg);
+		background-size: cover;
+		float: right;
+		margin-right: 5px;
+		margin-top: 5px;
+		padding-left: 3px;
+	}
+	.team{
+		position: relative;
+	}
+	.display_window{
+		width: 92%;
+		height: 460px;
+		top: 50px;
+		left: 4%;
+		border: 1px solid #8e8e8e;
+		position: absolute;
+		background-color: white;
+		overflow: hidden;
+	}
+	.dis_introuce{
+		font-size: 0.8em;
+	}
+	.dis_pic span img{
+		width: 109px;
+		height: 118px;
+		border: 1px solid #cccdc8;
+		background: #e4e3df;
+	}
+	.dis_pic{
+		width: 109px;
+		margin-left: 30%;
+		margin-top: 20px;
+		margin-bottom: 10px;	
+	}
+	.dis_pic h4{
+		margin-top: 9px;
+		margin: 0px;
+		text-align: center;
+	}
+	.dis_introuce{
+		height: 235px;
+		margin-top: 0px;
+		padding-right: 4%;
+		padding-left: 4%;
+		border-bottom: 1px solid #e5e5e5;
+		padding-bottom: 15px;
+		margin-bottom: 0px;
+	}
+	/*团队显示窗口控制按钮及样式*/
+	.team_dis_win_btn span{
+		display: inline-block;
+		width: 140px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.team_dis_span1{
+		border-right: 1px solid #e5e5e5
+	}
+	/*新闻模块手机端弹出窗口*/
+	.news{
+		position: relative;
+	}
+	#new_ph_dis{
+		display: none;
+	}
+	.new_phone_cl{
+		overflow: hidden;
+	}
+	.new_phone_diswindow{
+		padding-left: 4%;
+		padding-right: 4%;
+		z-index: 999;
+		width: 94%;
+		height: 325px;
+		border: 1px solid #8e8e8e;
+		display: block;
+		position: absolute;
+		top: 45px;
+		left: 3%;
+		background-color: white;
+	}
+	.new_phone_head{
+		border-bottom: 1px solid #cccdc8;
+		padding-bottom: 10px;
+	}
+	.new_phone_head dl dt img{
+		width: 56px;
+		height: 52px;
+		margin-top: 12px;
+		margin-right: 15px;
+	}
+	.new_phone_head dl{
+		overflow: hidden;
+		margin-bottom: 0px;
+	}
+	.new_phone_head dl dt{
+		float: left;
+		height: 90px;
+	}
+	.dis_close2{
+		margin-right: 0px;
+	}
+	.new_phone_diswindow p{
+		font-size: 13px;
+	}
+}

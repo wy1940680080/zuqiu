@@ -1,0 +1,974 @@
+/*---------------------------响应ipad端的样式---------------------*/
+
+@media only screen and (device-width: 1024px) and (device-height: 768px){
+	.logo_ul{
+		display: none;
+		
+	}
+	.head_1{
+		float: left;
+		display: inline-block;
+		height: 768px;
+		background: #c33a28;
+		position: fixed;
+		z-index: 1000;
+	}
+	.ipad_cl{
+		clear: both;
+	}
+	.main{
+		overflow: hidden;
+	}
+	.invest_more{
+		display:none;
+	}
+	/*首页侧边导航条*/
+	.navul_1{
+	
+	}
+	#invest_p{
+		font-size: 19px;
+		font-weight: 600;
+	}
+	/*右边介绍*/
+	.zhuanyetz{
+		padding-left: 24px;
+		margin-left: 19%;
+		padding-right: 24px;
+	}
+	.navul_1 li{
+		list-style-type: none;
+	}
+	.navul_1 li a{
+		color: white;
+	}
+	.log_1{
+	}
+	.nav_1{
+		margin-top: 40px;
+		width: 100%;
+	}
+	.slider-box{
+		width: 80%;
+		margin-left: 202px;
+	}
+	.logo_a img{
+		margin-left: 16px;
+		width: 180px;
+	}
+	.ipad_title1{
+		margin-left: 10%;
+		width: 90%;
+		display:block;
+		background: #c33a28;
+		color: white;
+	}
+	.ipad_title1 h2{
+		font-size: 32px;
+		margin-top: 15px;
+		margin-bottom: 0px;
+		letter-spacing: 8px;
+	}
+	.ipad_title1 p{
+		margin-bottom: 0px;
+		font-size: 12px;
+		margin-top: -2px;
+	}
+	.li_1{
+		height: 55px;
+		font-size: 26px;
+		line-height: 55px;
+	}
+	/*选项卡底边样式*/
+	.btob{
+		border-bottom: 1px solid #ccc;
+	}
+	.btor{border-bottom: 4px solid #c33a28;}
+	.zytrt{
+		display: none;
+	}
+	.zytrt h5{
+		display: none;
+	}
+	.zytz{
+		padding-top: 70px;
+	}
+	.tz_slider li{
+		list-style: none;
+	}
+	.slider_li{
+		overflow: hidden;
+	}
+	.slider_li li{
+		width: 180px;
+		list-style-type: none;
+		float: left;
+		margin-left: 8px;
+		margin-bottom: 12px;
+	}
+	.slider_li li div img{
+	
+		height: 120px;
+		border: 1px #e5e5e5 solid;
+	}
+	#bolo_slider{
+		box-shadow: none;
+		margin-bottom: 90px;
+		margin-top: 50px;
+	}
+	/*团队部分样式*/
+	/*弹出窗口*/
+	.display_window{
+		display: none;
+	}
+	.team{
+		position: relative;
+		margin-left: 19%;
+		padding-left: 24px;
+		padding-right: 24px;
+		height: 768px;
+	}
+	.mobliebac{
+		display: none;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: -20px;
+		left: 0px;
+		background: black;
+		opacity: 0.2;
+	}
+	.phone_span{
+		display: none;
+	}
+	.team_nav h2{
+		font-size:28px; 
+		font-weight: bold;
+	}
+	.team_nav p{
+		font-size: 20px;
+		line-height: 36px;
+	}
+	.team_ul1{
+		overflow: hidden;
+		padding-left: 0px;
+		width: 100%;
+	}
+	.team_ul1 li{
+		list-style-type: none;
+		float: left;
+		margin-right: 12px;
+		margin-left: 9px;
+	}
+	/*团队展示大图滚动*/
+	.team_picshow{
+		height: 460px;
+		width: 785px;
+		overflow:hidden;
+	}
+	.team_ul1 li img{
+		width: 175px;
+		height: 170px;
+	}
+	.team_box{
+		width: 300%;
+		height: 460px;
+	}
+	.teamunit{
+		float: left;
+		width: 33.333%;
+		height: 460px;
+	}
+	.team_ul1 h4{
+		margin-top: 20px;
+		text-align: center;
+	}
+	.teactrl{
+		margin-top: 20px;
+		overflow: hidden;
+		padding-left: 45%;
+	}
+	.team_control1 li{
+		list-style-type: none;
+		float: left;
+		border: 1px #b5b5b5 solid;
+		border-radius: 7px;
+		width: 14px;
+		height: 14px;
+		margin-right: 1%;
+
+	}
+	.team_nav{
+		margin-top: -19px;
+	}
+	/*pad团队关于部分*/
+	.about{
+		margin-left: 19%;
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-top: 40px;
+		height: 540px;
+	}
+	.ab_text{
+		display: none;
+	}
+	.ab_con1{
+		width: 25%;
+		height: 195px;
+		float: left;
+		border-top:1px #c3c3c3 solid;
+		border-bottom: 1px #c3c3c3 solid;
+	}
+	.about_cont{
+		overflow: hidden;
+	}
+	.value_p{
+		display: none;
+	}
+	.about_diswindow{
+		display:none;
+	}
+	.ab_bak1{
+		border-left: 1px #c3c3c3 solid;
+		border-right: 1px #c3c3c3 solid;
+	}
+	.ab_bak3{
+		border-left: 1px #c3c3c3 solid;
+		border-right: 1px #c3c3c3 solid;
+	}
+	.ab_bak4{
+		border-right: 1px #c3c3c3 solid;
+	}
+	.ab_bak3 dl dt{
+			background: url(../i/images/stand.png);
+			background-size: cover;
+	}
+	.ab_bak1 dl dt{
+			background:url(../i/images/areas.png);
+			background-size: cover;
+	}
+	.ab_bak2 dl dt{
+			background:url(../i/images/scale.png);
+			background-size: cover;
+	}
+	.ab_bak4 dl dt{
+			background: url(../i/images/service.png);
+			background-size: cover;
+	}
+	.ab_con1 dl dt{
+		width: 42%;
+		height: 82px;
+		position: relative;
+		margin-top: 50px;
+		margin-left: 27%;
+	}
+	.ab_bak1 dl dt img{
+		width: 20px;
+		height: 26px;
+		position: absolute;
+		top: 56px;
+		left: 57px;
+	}
+	.ab_bak3 dl dt img{
+		width: 26px;
+		height: 26px;
+		position: absolute;
+		top: 10px;
+		left: 47px;
+	}
+	.ab_bak4 dl dt img{
+		width: 26px;
+		height: 26px;
+		position: absolute;
+		top: 10px;
+	}
+	.ab_con1 dl dd h3{
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+	/*关于弹出窗口部分样式*/
+	.about{
+		position: relative;
+	}
+	.invest_1{
+		margin-left: 19%;
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.about_diswindow{
+		z-index: 99;
+		height: 490px;
+		width: 460px;
+		position: absolute;
+		border: 1px solid #8e8e8e;
+		top: 70px;
+		left: 190px;
+		background: white;	
+	}
+	/*背景蒙版*/
+	.mobilebac_ab{
+		position: absolute;
+		display: none;
+		width: 100%;
+		height: 100%;
+		top: -5px;
+		left: 0px;
+		background: black;
+		opacity: 0.2;
+	}
+	.invest_bac_pad{
+		position: absolute;
+		display: none;
+		width: 100%;
+		height: 100%;
+		top: -10px;
+		left: 0px;
+		background: black;
+		opacity: 0.2;
+	}
+	.new_pad_bac{
+		z-index: 12;
+		position: absolute;
+		display: none;
+		width: 100%;
+		height: 100%;
+		top: -10px;
+		left: 0px;
+		background: black;
+		opacity: 0.2;
+	}
+	.ab_dis_close{
+		overflow: hidden;	
+	}
+	.ab_dis_close span{
+		float: right;
+		width: 65px;
+		height: 45px;
+		border-left: 1px solid #e5e5e5;
+		background: url(../i/images/ab_dis_close.jpg);
+		background-size: cover;
+	}
+	.ab_dis_h{
+		border-bottom: 1px #cdccc8 solid;
+		margin-left: 5%;
+		margin-right: 5%;
+		font-weight: bold;
+		font-size: 20px;
+		margin-top: 0px;
+		padding: 10px;
+		margin-bottom:0px;
+	}
+	.ab_dis_ul{
+		margin-top: 25px;
+		padding-right: 5%;
+	}
+	.ab_dis_ul li{
+		list-style-type: none;
+		margin-bottom: 5px;
+	}
+	/*投资部分表格展示*/
+	.invest_tr_dl1{
+		height: 170px;
+		width: 258px;
+		border: 1px #e5e5e5 solid;
+	}
+	.invest_tr_dl1 dl dt{
+		margin-left: 34%;
+		width: 80px;
+		height: 80px;
+		background-size: cover;
+	}
+	.invest_tr_dl1 dl{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.invest_tr_dl1 dd{
+		text-align: center;
+	}
+	.indt1{
+		background: url(../i/images/btech.png);
+	}
+	.indt2{
+		background: url(../i/images/bcons.png);
+	}
+	.indt3{
+		background: url(../i/images/bmedical.png);
+	}
+	.indt4{
+		background: url(../i/images/bmedia.png);
+	}
+	.indt5{
+		background: url(../i/images/balter.png);
+	}
+
+	.indt6{
+		background: url(../i/images/bcomp.png);
+	}
+	.invest_tr{
+		margin-top: 40px;
+	}
+	/*新闻模块*/
+	.news{
+		margin-left: 19%;
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-top: 40px;
+	}
+	.new_phone_diswindow{
+		display: none;
+	}
+	/*投资部分*/
+	.invest_dis_window{
+		z-index: 10;
+		display: none;
+		border: 1px solid #8e8e8e;
+		background: white;
+		width:95%;
+		height: 605px;
+		position: absolute;
+		top: 100px;
+		left: 22px;
+	}
+	.invest_1{
+		position: relative;
+		height: 768px;
+		padding-top: 70px;
+	}
+	.in_close{
+		overflow: hidden;
+	}
+/*	.ipad_invest_close img{
+		width: 32px;
+		height: 32px;
+	}*/
+	.ipad_invest_close{
+		float: right;
+		border-left: 1px solid #e5e5e5;
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+	.invest_search{
+		position: relative;
+		padding-bottom: 25px;
+		border-bottom: 1px solid #e3e3e3;
+	}
+	.ipad_win_com{
+     margin-left: 10%;
+     width: 75%;
+	 height: 48px;
+	 border-radius: 30px;
+	 border: 1px solid #d9d9d9;
+	 line-height: 38px;
+	 padding-left: 20px;
+	 outline: none;
+}
+.invest_search span{
+	cursor: pointer;
+	position: absolute;
+	top: 17px;
+	left: 80%;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../i/images/search.png);
+ }
+ /*投资搜索弹出详细*/
+.ipad_win_detail_com{
+	display: inline-block;
+	width: 95%;
+	margin-top: 0px;
+}
+.ipad_win_detail_com li{
+	list-style-type: none;
+	height: 112px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.ipad_win_list{
+	display: inline-block;
+	width:2%;
+	padding-left: 0px;
+}
+.ipad_detail_com{
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+.ipad_detail_com dt{
+	float: left;
+	margin-right: 18px;
+}
+.ipad_detail_com dt img{
+	height: 110px;
+	width: 117px;
+}
+.ipad_detail_com dd p{
+	overflow: hidden;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.ipad_detail_com dd{
+	margin-top: 20px;
+}
+.ipad_detail_com dd h3{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+/*投资弹出搜索框列左边图标处理*/
+.liintro{
+	float:left;
+	width: 10px;
+	height: 10px;
+	margin: 7px 5px 7px 2px;
+	background: url(../i/images/liintro.png);
+}
+.liurl{
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 7px 5px 7px 2px;
+	background: url(../i/images/liurl.png);
+}
+/*右边字母列表*/
+.ipad_win_list li{
+	height: 16px;
+	list-style-type: none;
+}
+#new_phone li{
+	list-style-type: none;
+	float: left;
+	width: 781px;
+}
+#new_phone{
+	overflow: hidden;
+	padding-left: 0px;
+}
+.new_box{
+	width: 100%;
+	overflow: hidden;
+}
+.new_slider{
+	width: 2343px;
+}
+.new_slider_op{
+	width: 100%;
+	background: #000;
+	opacity: 0.5;
+	color: white;
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	padding: 10px;
+}
+.new_slider ul li{
+	position: relative;
+}
+.describe{
+	width: 70%;
+}
+.describe b{
+	
+	font-size: 16px;
+}
+.describe span{
+	display: block;
+	color: #a0a2a1;
+	line-height: 15px;
+	font-size: 10px;
+ 
+}
+.new_control_ul2{
+	overflow: hidden;
+	margin-left: 40%;
+}
+.new_control_ul2 li{
+	list-style-type: none;
+	float:left;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #b5b5b5;
+	border-radius: 7px;
+	margin-right: 18px;
+}
+#am_div_intro li dl dt img{
+	width: 85px;
+	height: 90px;
+	margin-top: 5px;
+	margin-right: 25px;
+}
+#am_div_intro li dl dt{
+	height: 130px;
+	float: left;
+}
+#am_div_intro li dl{
+	overflow: hidden;
+}
+#am_div_intro li{
+	float: left;
+	width: 45%;
+	margin-right: 35px;
+}
+.new_intro_dd h3 a{
+	color: black;
+	font-size: 18px;
+	font-weight:400;
+}
+.new_intro_dd h3{
+	margin-bottom: 0px;
+}
+.new_intro_dd span{
+	color: #9a9a9a;
+	font-size: 12px; 
+}
+.am-list-item-text{
+	color: #737373;
+	font-size: 14px;
+	line-height: 25px;
+}
+.new_intro_dd{
+	margin-left: 5px;
+}
+.new_2contr{
+	display: none;
+}
+/*pad新闻窗口*/
+.news{
+	position: relative;
+}
+.new_phone_diswindow{
+	display: none;
+	z-index: 999;
+	width: 94%;
+	height: 345px;
+	border: 1px solid #8e8e8e;
+	position: absolute;
+	top: 135px;
+	left: 25px;
+	background-color: white;
+	padding-left: 4%;
+	padding-right: 3%;
+
+}
+.dis_close2{
+	width: 25px;
+	height: 25px;
+	background: url(../i/images/bclose.jpg);
+	background-size: cover;
+	float: right;
+	margin: 10px 0px 10px 10px;
+	border-left: 1px solid #e3e3e3;
+	padding-left: 3px;
+}
+/*窗口头部*/
+.new_phone_cl{
+	overflow: hidden;
+}
+.new_phone_head{
+	border-bottom: 1px solid #e3e3e3;
+}
+.new_phone_head dl dt img{
+	width: 135px;
+	height: 120px;
+}
+.new_phone_head dl{
+	overflow: hidden;
+}
+.new_phone_head dl dt{
+	float: left;
+	margin-right: 15px;
+}
+#new_ph_dis p{
+	margin-top: 15px;
+	font-size: 17px;
+}
+
+/*联系我们部分*/
+.contact{
+	margin-left: 19%;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 40px;
+}
+.con_tact_En,.contact_ul_ad,.con_add_ul_box{
+	padding: 0px;
+}
+.con_tact_En li,.contact_ul_ad li,.con_add_ul_box li{
+	list-style-type: none;
+}
+.con_li1{
+	float: left;
+	margin-right: 20px;
+}
+.contact_ul_ad li{
+	font-size: 13px;
+}
+#contact{
+	box-shadow: none;
+}
+#contouch{
+	font-size: 28px;
+	font-weight: bold;
+}
+.contact_address{
+	width: 774px;
+	height: 262px;
+	background: url(../i/images/ipadmap.jpg);
+	background-size: cover;
+
+}
+/*顾客计划提交部分*/
+
+.custom_pro{
+	display: none;
+}
+.custom_phone_pro{
+	margin-left: 19%;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 40px;
+	margin-top: 30px;
+}
+.phone_pro{
+	overflow: hidden;
+	padding-left: 0px;
+}
+.phone_pro li{
+	width: 50%;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	font-weight: bold;
+	font-size: 21px;
+}
+.phone_pro li span{
+	font-size: 30px;
+}
+.phone_li1{
+		border-top: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+	}
+.phone_li2{
+		border-top: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+	}
+#mak_ul_pro li{
+ list-style-type: none;
+ margin-bottom: 10px;
+ font-size: 16px;
+}
+#mak_ul_pro{
+	padding-left: 0px;
+}
+.phone_pro_sub{
+	display: none;
+	margin-top: 35px;
+	padding-left: 20%;
+}
+.phone_pro_sub input{
+	border: 1px solid #cfcfcf;
+	outline: none;
+}
+.phone_pro_sub ul li{
+	list-style-type: none;
+	margin-bottom: 21px;
+}
+.phone_pro_sub ul{
+	padding-left: 0px;
+}
+.com_pro_inp{
+	width: 437px;
+	height: 33px;
+}
+.custom_phone_pro h3{
+	font-size: 19px;
+	font-weight: 400;
+}
+/*.pro_box{
+	height: 550px;
+}*/
+#mak_ul_pro{
+	margin-top: 30px;
+}
+.phone_pro_sub ul li h5{
+	margin-bottom: 10px;
+}
+.pro_text{
+	width: 437px;
+	border: 1px solid #cfcfcf;
+}
+#submit_pro_hand {
+	display: block;
+	color: black;
+	margin-top: 10px;
+	width: 130px;
+	padding-left: 25px;
+	background: url(../i/images/addfile.jpg) no-repeat;
+	background-position: 0 2px;
+}
+.addfile{
+	width: 91%;
+	height: 23px;
+	display: block;
+	opacity: 0;
+	margin-top: -25px;
+}
+.tijiao_pro{
+	width: 437px;
+	height: 55px;
+}
+.phone_work{
+	display: none;
+}
+
+
+/*工作部分隐藏*/
+.work_idg{
+	margin-left: 19%;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 40px;
+	margin-top: 10px;
+}
+.work_looking{
+	border: 1px solid #ccc;
+	height: 40px;
+	width: 50%;
+	border-radius: 25px;
+	padding-left: 15px;
+}
+.pc_wor_look{
+	position: relative;
+}
+.pc_wor_look span{
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+	top: 12px;
+	left: 46%;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../i/images/search.png);
+}
+.copy_rig{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.desi_2{
+	margin-top: 0px;
+}
+.share_idg p{
+	text-align: center;
+}
+.share_img{
+	margin-left: 40%;
+}
+.share_under img{
+	margin-right: 8px;
+}
+#work_adv_ul h5{
+	font-size: 18px;
+	margin-left: -25px;
+}
+#work_req_ul h5{
+	font-size: 20px;
+	margin-left: -25px;
+}
+.share_idg{
+	margin-left: 19%;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 40px;
+}
+.am-direction-nav{
+	display: none;
+}
+.team{
+	position: relative;
+}
+/*团队弹出窗口*/
+.display_window{
+	z-index: 10;
+	width: 470px;
+	height: 600px;
+	border: 1px solid #ccc;
+	background: white;
+	display: none;
+	position: absolute;
+	padding-left: 4%;
+	padding-right: 4%;
+	top: 100px;
+	left: 20%;
+}
+.dis_close {
+display: inline-block;
+height: 23px;
+width: 23px;
+margin: 22px 22px 22px 395px;
+background: url(../i/images/bclose.jpg);
+background-size: cover;
+cursor: pointer;
+}
+.dis_head{
+	padding-left: 30%;
+	margin-top: -20px;
+	padding-right: 30%;
+}
+.dis_pic h4{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+.team_dis_win_btn span{
+	width: 49%;
+	height: 72px;
+	display: inline-block;
+	text-align: center;
+	line-height: 72px;
+}
+.team_dis_span1{
+	border-right: 1px solid #cdccc8;
+}
+.team_dis_win_btn{
+	border-top: 1px solid #cdccc8;
+}
+.dis_head{
+	height: 212px;
+}
+.navul_1{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.li_1 a{
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+ /*------------------此花括号不可动，禁忌线------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
